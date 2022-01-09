@@ -20,6 +20,27 @@
         <tag>HEAD</tag>
         <url>https://github.com/edilib/java-edilib.git</url>
     </scm>
+    <url>https://github.com/edilib/java-edilib</url>
+    <developers>
+        <developer>
+            <id>cbuschka</id>
+            <email>cbuschka@gmail.com</email>
+            <name>Cornelius Buschka</name>
+            <url>https://github.com/cbuschka</url>
+        </developer>
+    </developers>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+    <issueManagement>
+        <system>github</system>
+        <url>https://github.com/edilib/java-edilib/issues</url>
+    </issueManagement>
     <modules>
         <module>edilib</module>
         <module>testsuite</module>
