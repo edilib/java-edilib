@@ -1,5 +1,7 @@
 # java-edilib - An edifact reader written in java
 
+[![Build](https://github.com/edilib/java-edilib/workflows/build/badge.svg)](https://github.com/edilib/java-edilib) [![License](https://img.shields.io/github/license/edilib/java-edilib.svg)](https://github.com/edilib/java-edilib/blob/main/license.txt)
+
 ### WIP!
 
 ## Features
