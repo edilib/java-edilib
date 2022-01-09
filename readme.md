@@ -16,6 +16,7 @@
 ## References
 * [reddit post about edi standards](https://www.reddit.com/r/edi/comments/3aazdc/eli5_edi/)
 * [un/edifact standard](https://unece.org/trade/uncefact/introducing-unedifact)
+* [x12 example files](https://edidev.net/edidev-ca/help/Sample_Files/SampleX12EdiFiles.htm)
 
 ## License
 
