@@ -17,6 +17,6 @@ public class Format {
     public final char segmentTerminator;
 
     public boolean hasRepetitionSeperator() {
-        return releaseCharacter != ' ';
+        return repetitionSeperator != ' ';
     }
 }
