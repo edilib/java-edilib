@@ -11,7 +11,7 @@ import java.util.List;
 public class Tag {
     private String name;
 
-    private List<Value> componentValues;
+    private List<SimpleValue> componentValues;
 
     public Tag(Value value) {
         if (value instanceof SimpleValue) {
