@@ -1,4 +1,4 @@
-# java-edilib - edifact reader written in java
+# java-edilib - An edifact reader written in java
 
 ### WIP!
 
