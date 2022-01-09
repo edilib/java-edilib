@@ -1,0 +1,11 @@
+# from https://iwayinfocenter.informationbuilders.com/TLs/TL_soa_ebiz_edifact/source/edifact_sample_documents45.htm
+# with segment terminators ' added to end of line
+UNB+UNOA:1+RECIPIENT:12:ROUTING ADDR+SENDER PHONE:12:REVERSE ROUT+090723:1010+1+RECEIVER PSWD:AA+APPL'
+REF+A+1+COMM AGREE ID+1'
+UNH+1+APERAK:D:97A:UN'
+BGM+23:::PRPAID+PRPAID1:D:97A+27+AP'
+DTM+137:20090723101039:204'
+ERC+36+6'
+FTX+AAO+++Maximum Usage Count exceeded for UNT'
+UNT+6+1'
+UNZ+1+1'
