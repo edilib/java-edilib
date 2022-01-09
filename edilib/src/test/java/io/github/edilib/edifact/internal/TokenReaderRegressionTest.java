@@ -1,5 +1,6 @@
-package io.github.edilib.edifact.stream;
+package io.github.edilib.edifact.internal.parser;
 
+import io.github.edilib.edifact.Format;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

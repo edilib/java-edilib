@@ -1,9 +1,8 @@
-package io.github.edilib.edifact.dom;
+package io.github.edilib.edifact;
 
-import io.github.edilib.edifact.stream.Format;
-import io.github.edilib.edifact.stream.Token;
-import io.github.edilib.edifact.stream.TokenReader;
-import io.github.edilib.edifact.stream.TokenType;
+import io.github.edilib.edifact.internal.parser.Token;
+import io.github.edilib.edifact.internal.parser.TokenReader;
+import io.github.edilib.edifact.internal.parser.TokenType;
 
 import java.io.IOException;
 import java.io.Reader;

@@ -1,6 +1,7 @@
-package io.github.edilib.edifact.stream;
+package io.github.edilib.edifact.internal.parser;
 
-import io.github.edilib.edifact.dom.Value;
+import io.github.edilib.edifact.Value;
+import io.github.edilib.edifact.Location;
 import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode

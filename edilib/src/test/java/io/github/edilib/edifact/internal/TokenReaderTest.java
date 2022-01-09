@@ -1,8 +1,6 @@
-package io.github.edilib.edifact.stream;
+package io.github.edilib.edifact.internal.parser;
 
-import io.github.edilib.edifact.dom.RepetitionValue;
-import io.github.edilib.edifact.dom.SimpleValue;
-import io.github.edilib.edifact.dom.ComponentValue;
+import io.github.edilib.edifact.*;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

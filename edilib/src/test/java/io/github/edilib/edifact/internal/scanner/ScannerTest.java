@@ -1,7 +1,7 @@
-package io.github.edilib.edifact.stream.scanner;
+package io.github.edilib.edifact.internal.scanner;
 
-import io.github.edilib.edifact.stream.Format;
-import io.github.edilib.edifact.stream.Location;
+import io.github.edilib.edifact.Format;
+import io.github.edilib.edifact.Location;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 

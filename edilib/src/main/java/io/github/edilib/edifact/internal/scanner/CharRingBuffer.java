@@ -1,4 +1,4 @@
-package io.github.edilib.edifact.stream.scanner;
+package io.github.edilib.edifact.internal.scanner;
 
 class CharRingBuffer {
     private final char[] buffer;

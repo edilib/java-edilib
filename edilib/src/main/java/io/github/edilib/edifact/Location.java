@@ -1,4 +1,4 @@
-package io.github.edilib.edifact.stream;
+package io.github.edilib.edifact;
 
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

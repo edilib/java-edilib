@@ -1,4 +1,4 @@
-package io.github.edilib.edifact.dom;
+package io.github.edilib.edifact;
 
 public interface Value {
     default boolean isComponent() {

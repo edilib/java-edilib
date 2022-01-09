@@ -1,6 +1,6 @@
-package io.github.edilib.edifact.stream.scanner;
+package io.github.edilib.edifact.internal.scanner;
 
-import io.github.edilib.edifact.stream.Location;
+import io.github.edilib.edifact.Location;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 

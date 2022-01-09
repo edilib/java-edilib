@@ -1,6 +1,8 @@
-package io.github.edilib.edifact.dom;
+package io.github.edilib.edifact;
 
-import io.github.edilib.edifact.stream.Format;
+import io.github.edilib.edifact.Segment;
+import io.github.edilib.edifact.SegmentReader;
+import io.github.edilib.edifact.Format;
 import org.junit.jupiter.api.Test;
 
 import java.io.*;
@@ -17,7 +19,7 @@ class SegmentReaderTest {
 
     @Test
     void unedifact_invrpt1() throws IOException {
-        givenParserInputFrom("unedifact_invrpt1.txt", Format.UNEDIFACT_DEFAULT);
+        givenParserInputFrom("internal/parser/unedifact_invrpt1.txt", Format.UNEDIFACT_DEFAULT);
 
         whenSegmentsRead();
 
@@ -26,7 +28,7 @@ class SegmentReaderTest {
 
     @Test
     void unedifact_invrpt2() throws IOException {
-        givenParserInputFrom("unedifact_invrpt2.txt", Format.UNEDIFACT_DEFAULT);
+        givenParserInputFrom("internal/parser/unedifact_invrpt2.txt", Format.UNEDIFACT_DEFAULT);
 
         whenSegmentsRead();
 

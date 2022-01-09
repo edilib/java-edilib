@@ -1,12 +1,13 @@
-package io.github.edilib.edifact.stream;
+package io.github.edilib.edifact.internal.parser;
 
-import io.github.edilib.edifact.dom.ComponentValue;
-import io.github.edilib.edifact.dom.RepetitionValue;
-import io.github.edilib.edifact.dom.SimpleValue;
-import io.github.edilib.edifact.dom.Value;
-import io.github.edilib.edifact.stream.scanner.Scanner;
-import io.github.edilib.edifact.stream.scanner.ScannerToken;
-import io.github.edilib.edifact.stream.scanner.ScannerTokenType;
+import io.github.edilib.edifact.ComponentValue;
+import io.github.edilib.edifact.RepetitionValue;
+import io.github.edilib.edifact.SimpleValue;
+import io.github.edilib.edifact.Value;
+import io.github.edilib.edifact.Format;
+import io.github.edilib.edifact.internal.scanner.Scanner;
+import io.github.edilib.edifact.internal.scanner.ScannerToken;
+import io.github.edilib.edifact.internal.scanner.ScannerTokenType;
 import lombok.AllArgsConstructor;
 
 import java.io.IOException;

@@ -1,8 +1,8 @@
 package io.github.edilib.testsuite;
 
-import io.github.edilib.edifact.dom.Segment;
-import io.github.edilib.edifact.dom.SegmentReader;
-import io.github.edilib.edifact.stream.Format;
+import io.github.edilib.edifact.Segment;
+import io.github.edilib.edifact.SegmentReader;
+import io.github.edilib.edifact.Format;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;

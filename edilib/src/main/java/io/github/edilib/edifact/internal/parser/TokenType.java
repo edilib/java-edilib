@@ -1,4 +1,4 @@
-package io.github.edilib.edifact.stream;
+package io.github.edilib.edifact.internal.parser;
 
 public enum TokenType {
     BEGIN_SEGMENT,

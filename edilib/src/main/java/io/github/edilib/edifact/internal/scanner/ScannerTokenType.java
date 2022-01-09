@@ -1,4 +1,4 @@
-package io.github.edilib.edifact.stream.scanner;
+package io.github.edilib.edifact.internal.scanner;
 
 // https://unece.org/fileadmin/DAM/trade/edifact/untdid/d422_s.htm#interchange
 public enum ScannerTokenType {
