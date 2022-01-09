@@ -1,6 +1,6 @@
 # java-edilib - An edifact reader written in java
 
-[![Build](https://github.com/edilib/java-edilib/workflows/build/badge.svg)](https://github.com/edilib/java-edilib) [![License](https://img.shields.io/github/license/edilib/java-edilib.svg)](https://github.com/edilib/java-edilib/blob/main/license.txt)
+[![Build](https://github.com/edilib/java-edilib/workflows/build/badge.svg)](https://github.com/edilib/java-edilib) [![Maven Central](https://img.shields.io/maven-central/v/io.github.edilib/edilib.svg)](https://search.maven.org/search?q=g:io.github.edilib%20AND%20a:edilib) [![License](https://img.shields.io/github/license/edilib/java-edilib.svg)](https://github.com/edilib/java-edilib/blob/main/license.txt)
 
 ### WIP!
 
