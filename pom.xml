@@ -16,6 +16,7 @@
     </properties>
     <modules>
         <module>edilib</module>
+        <module>testsuite</module>
     </modules>
     <build>
         <plugins>
@@ -56,4 +57,13 @@
             <optional>true</optional>
         </dependency>
     </dependencies>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>${project.groupId}</groupId>
+                <artifactId>edilib</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
