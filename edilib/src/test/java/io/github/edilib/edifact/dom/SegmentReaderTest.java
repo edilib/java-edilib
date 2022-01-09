@@ -5,44 +5,45 @@ import org.junit.jupiter.api.Test;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class InterchangeReaderTest {
+class SegmentReaderTest {
 
-    private InterchangeReader interchangeReader;
+    private SegmentReader segmentReader;
 
-    private Interchange interchange;
+    private List<Segment> segments;
 
     @Test
     void unedifact_invrpt1() throws IOException {
         givenParserInputFrom("unedifact_invrpt1.txt", Format.UNEDIFACT_DEFAULT);
 
-        whenInterchangeRead();
+        whenSegmentsRead();
 
-        assertThat(interchange.getSegments()).hasSize(26);
+        assertThat(segments).hasSize(26);
     }
 
     @Test
     void unedifact_invrpt2() throws IOException {
         givenParserInputFrom("unedifact_invrpt2.txt", Format.UNEDIFACT_DEFAULT);
 
-        whenInterchangeRead();
+        whenSegmentsRead();
 
-        assertThat(interchange.getSegments()).hasSize(16);
+        assertThat(segments).hasSize(16);
     }
 
     @Test
     void x12_purchase_order1() throws IOException {
         givenParserInputFrom("x12_purchase_order1.txt", Format.X12_DEFAULT);
 
-        whenInterchangeRead();
+        whenSegmentsRead();
 
-        assertThat(interchange.getSegments()).hasSize(39);
+        assertThat(segments).hasSize(39);
     }
 
-    private void whenInterchangeRead() throws IOException {
-        interchange = interchangeReader.read();
+    private void whenSegmentsRead() throws IOException {
+        segments = segmentReader.readAll();
     }
 
     private void givenParserInputFrom(String path, Format format) throws FileNotFoundException {
@@ -52,6 +53,6 @@ class InterchangeReaderTest {
             throw new FileNotFoundException(path);
         }
 
-        interchangeReader = new InterchangeReader(path, new InputStreamReader(in, StandardCharsets.UTF_8), format);
+        segmentReader = new SegmentReader(path, new InputStreamReader(in, StandardCharsets.UTF_8), format);
     }
 }

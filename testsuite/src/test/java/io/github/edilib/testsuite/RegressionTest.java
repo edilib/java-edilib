@@ -1,7 +1,7 @@
 package io.github.edilib.testsuite;
 
-import io.github.edilib.edifact.dom.Interchange;
-import io.github.edilib.edifact.dom.InterchangeReader;
+import io.github.edilib.edifact.dom.Segment;
+import io.github.edilib.edifact.dom.SegmentReader;
 import io.github.edilib.edifact.stream.Format;
 import org.junit.jupiter.api.Test;
 
@@ -11,6 +11,7 @@ import java.io.IOException;
 import java.io.StringReader;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -38,11 +39,11 @@ class RegressionTest {
 
         String ediData = readEdiData(file);
 
-        InterchangeReader reader = new InterchangeReader(file.getName(),
+        SegmentReader reader = new SegmentReader(file.getName(),
                 new StringReader(ediData),
                 format);
-        Interchange interchange = reader.read();
-        assertThat(interchange.getSegments()).isNotEmpty();
+        List<Segment> segments = reader.readAll();
+        assertThat(segments).isNotEmpty();
     }
 
     private String readEdiData(File file) throws IOException {
