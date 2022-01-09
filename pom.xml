@@ -14,6 +14,12 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>8</java.version>
     </properties>
+    <scm>
+        <developerConnection>scm:git:ssh://git@github.com/edilib/java-edilib</developerConnection>
+        <connection>scm:git:ssh://git@github.com/cbuschka/edilib/java-edilib</connection>
+        <tag>HEAD</tag>
+        <url>https://github.com/edilib/java-edilib.git</url>
+    </scm>
     <modules>
         <module>edilib</module>
         <module>testsuite</module>
