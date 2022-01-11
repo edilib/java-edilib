@@ -1,6 +1,7 @@
 package io.github.edilib.edifact;
 
 import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 
 import java.util.ArrayList;
@@ -8,6 +9,7 @@ import java.util.List;
 
 @AllArgsConstructor
 @Getter
+@EqualsAndHashCode
 public class Tag {
     private String name;
 

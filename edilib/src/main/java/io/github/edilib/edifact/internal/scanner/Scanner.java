@@ -28,6 +28,14 @@ public class Scanner {
         this.format = format;
     }
 
+    public ScannerToken peek() throws IOException {
+        if (tokens.isEmpty()) {
+            fill();
+        }
+
+        return tokens.get(0);
+    }
+
     public ScannerToken next() throws IOException {
         if (tokens.isEmpty()) {
             fill();
