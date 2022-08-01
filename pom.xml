@@ -194,6 +194,11 @@
             <version>1.18.22</version>
             <optional>true</optional>
         </dependency>
+        <dependency>
+            <groupId>com.github.codestickers</groupId>
+            <artifactId>codestickers</artifactId>
+            <version>1.0.2</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>
